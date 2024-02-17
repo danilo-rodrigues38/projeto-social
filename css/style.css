@@ -41,12 +41,24 @@ main{
     height: 473px;
 }
 
-/* #redes-sociais{
-    width: 80px;
-    height: 627px;
-    background-color: green;
+#redes-sociais{
     position: absolute;
-    right: 1.5%;
+    right: 1%;
     top: 50%;
     transform: translate(0%, -50%);
-} */
+}
+
+#redes-sociais img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#redes-sociais img:hover{
+    border: 1px solid rgba(255, 255, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.5);
+    transform: translate(-3px, -3px);
+    transition: 0.2s;
+}
